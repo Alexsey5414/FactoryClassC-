@@ -45,9 +45,12 @@
   <ItemGroup>
     <Compile Include="BaseService\BaseService.cs" />
     <Compile Include="BaseService\BaseServiceFactory.cs" />
+    <Compile Include="FactoryStorage\FileFactoryList.cs" />
+    <Compile Include="FactoryStorage\CommonFactoryList.cs" />
     <Compile Include="FactoryStorage\FactoryListStorage.cs" />
     <Compile Include="CommonService\CommonFactory.cs" />
-    <Compile Include="FactoryStorage\FactoryTypeListStorage.cs" />
+    <Compile Include="BaseService\FactoryTypeListStorage.cs" />
+    <Compile Include="FactoryStorage\FTPFactoryList.cs" />
     <Compile Include="FactoryStorage\IFactoryListStorage.cs" />
     <Compile Include="FactoryStorage\IFactoryTypeListStorage.cs" />
     <Compile Include="FileService\FileService.cs" />
